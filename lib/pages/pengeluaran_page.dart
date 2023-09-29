@@ -166,31 +166,31 @@ class _PengeluaranState extends State<Pengeluaran> {
                     ),
                     Row(
                       children: [
-                        InkWell(
-                          onTap: () => {Navigator.pop(context)},
-                          child: Container(
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(8.0),
-                                color: white,
-                                border: Border.all(
-                                  color: primary900,
-                                )),
-                            margin: const EdgeInsets.only(top: 12, right: 12),
-                            padding: const EdgeInsets.symmetric(
-                              vertical: 12,
-                              horizontal: 28,
-                            ),
-                            alignment: Alignment.center,
-                            child: const Text(
-                              'Batal',
-                              style: TextStyle(
-                                color: primary900,
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                        ),
+                        // InkWell(
+                        //   onTap: () => {Navigator.pop(context)},
+                        //   child: Container(
+                        //     decoration: BoxDecoration(
+                        //         borderRadius: BorderRadius.circular(8.0),
+                        //         color: white,
+                        //         border: Border.all(
+                        //           color: primary900,
+                        //         )),
+                        //     margin: const EdgeInsets.only(top: 12, right: 12),
+                        //     padding: const EdgeInsets.symmetric(
+                        //       vertical: 12,
+                        //       horizontal: 28,
+                        //     ),
+                        //     alignment: Alignment.center,
+                        //     child: const Text(
+                        //       'Batal',
+                        //       style: TextStyle(
+                        //         color: primary900,
+                        //         fontSize: 16,
+                        //         fontWeight: FontWeight.bold,
+                        //       ),
+                        //     ),
+                        //   ),
+                        // ),
                         InkWell(
                           onTap: () async {
                             await _createTransaction();
