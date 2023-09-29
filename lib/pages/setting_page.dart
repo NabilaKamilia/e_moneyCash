@@ -234,7 +234,7 @@ class _SettingState extends State<Setting> {
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
                             'images/nabila.jpg',
-                            width: 147,
+                            width: 130,
                           ),
                         ),
                         const SizedBox(

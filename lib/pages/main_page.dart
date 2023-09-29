@@ -5,6 +5,8 @@ import 'package:e_money/shared/routes.dart';
 import 'package:e_money/shared/theme.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:e_money/pages/pengeluaran_page.dart';
+import 'package:e_money/pages/pemasukan_page.dart';
 
 class Main extends StatefulWidget {
   final int? userId;

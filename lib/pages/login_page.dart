@@ -68,7 +68,7 @@ class _LoginState extends State<Login> {
                       Container(
                         margin: const EdgeInsets.only(bottom: 30),
                         child: Text(
-                          "CASHY APP",
+                          "CASH APP",
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: bold,
